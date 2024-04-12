@@ -1,0 +1,70 @@
+body {
+    background-color: #d9e2e7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.common {
+
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 55px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.leftmenu {
+    top: 60px;
+    left: 5px;
+    width: 120px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555555;
+
+}
+
+.TomPic {
+    top: 60px;
+    left: 127px;
+    right: 125px;
+    bottom: 414px;
+
+}
+
+.mainbody {
+    top: 414px;
+    left: 134px;
+    right: 134px;
+    bottom: 39px;
+    padding-right: 5px;
+
+}
+
+.rightmenu {
+    top: 60px;
+    right: 5px;
+    width: 120px;
+    bottom: 39px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5 px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+}
